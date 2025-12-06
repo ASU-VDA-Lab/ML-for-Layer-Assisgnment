@@ -1,5 +1,5 @@
 #ML for Layer Assignment Using CNN and GCN Methods
-ASAP7 data point details
+#ASAP7 data point details
 
 | Tech node | DESIGN | UTILIZATION | #nets | CLK PERIOD (ps) | DIE area(umxum) | DIE area(um^2) |
 |-----------|--------|-------------|-------|-----------------|-----------------|----------------|
@@ -38,8 +38,8 @@ ASAP7 data point details
 
 Impact on Global Routing Metrics (ASAP7) - detailed
 
-| TDLA   |             | Opt1 |           | Opt2    |           | Opt3    |           | CDLA    |           |
-|--------|-------------|------|-----------|---------|-----------|---------|-----------|---------|-----------|
+|        |             |      |    TDLA   |  TDLA   |     Opt1  | Opt1    |     Opt2  | Opt2    |   Opt3    | Opt3    |   CDLA    | CDLA    |
+|--------|-------------|------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|
 | design | name        | Util | TNS       | WNS     | TNS       | WNS     | TNS       | WNS     | TNS       | WNS     | TNS       | WNS     |
 | aes    | aes-87-380  | 87%  | -2864.13  | -44.54  | -2888.51  | -44.55  | -2911.89  | -44.55  | -2890.73  | -44.55  | -3319.95  | -50.11  |
 | aes    | aes-50-380  | 50%  | -2867.85  | -35.16  | -2959.49  | -35.08  | -2982.74  | -36.77  | -2987.38  | -36.76  | -3242.89  | -37.24  |
