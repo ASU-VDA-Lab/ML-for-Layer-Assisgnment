@@ -1,5 +1,6 @@
-#ML for Layer Assignment Using CNN and GCN Methods
-#ASAP7 data point details
+Results for ML for Layer Assignment using Hybrid GCN-CNN model
+
+ASAP7 data point details
 
 | Tech node | DESIGN | UTILIZATION | #nets | CLK PERIOD (ps) | DIE area(umxum) | DIE area(um^2) |
 |-----------|--------|-------------|-------|-----------------|-----------------|----------------|
