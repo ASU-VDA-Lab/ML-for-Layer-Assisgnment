@@ -570,4 +570,5 @@ def main():
     print(f"DP and assigning layers took {part4 - part3:.6f} seconds")
 
 if __name__ == "__main__":
+
     main()
