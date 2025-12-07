@@ -1,3 +1,3 @@
 Data generation using traditional layer assignment algorithms
-1) TDLA.py - Timing-Driven Layer Assignment
-2) CDLA.py - Congestion-Driven Layer Assignment
+1) tdla.py - Timing-driven layer assignment
+2) cdla.py - Congestion-driven layer assignment
