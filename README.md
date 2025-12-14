@@ -12,8 +12,8 @@ Timing-driven layer assignment during global routing significantly impacts delay
 
 -   [File structure](#file-structure)
 -   [Benchmark data organization](#benchmark-data)
--   [How to run](#getting-started)
--   [Running ML model](#running-gcn-cnn)
+-   [How to run traditional models](#getting-started)
+-   [How to run ML model](#running-gcn-cnn)
 -   [Results](#results)
 
 ## File structure
@@ -45,7 +45,7 @@ Timing-driven layer assignment during global routing significantly impacts delay
     - [impact_on_global_routing_metrics.xlsx](./results/nangate45/impact_on_global_routing_metrics.xlsx)
 - **scripts/**
   - [ord_query_cap_slacks.py](./scripts/ord_query_cap_slacks.py)
-benchmarks foder is explained below
+
 ## Benchmark data organization
 
 The `benchmarks/` directory contains the data used in this project. It includes data points generated for both **ASAP7** and **Nangate45** technology nodes using **[OpenROAD-Flow-Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)**.
