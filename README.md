@@ -16,7 +16,7 @@ Timing-driven layer assignment during global routing significantly impacts delay
 -   [Running ML model](#running-gcn-cnn)
 -   [Results](#results)
 
-##File structure
+## File structure
 - [README.md](./README.md)
 - **src/**
   - **gcn_cnn/**
