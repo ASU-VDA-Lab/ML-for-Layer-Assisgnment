@@ -109,7 +109,7 @@ CUDA_VISIBLE_DEVICES=3 python3 train_ml.py   --mode explicit   --train-designs i
 
 Each trained model produces:
 
-A checkpoint file (.ckpt)
+A checkpoint file (.pt)
 
 A normalization file
 
