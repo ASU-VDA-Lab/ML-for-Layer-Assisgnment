@@ -118,13 +118,13 @@ These files are used during inference to generate ML-based routing guides.
 For example opt1: 
 ```sh
 CUDA_VISIBLE_DEVICES=2 python3 test_ml.py \
-  --folders /data/sjulaka6/data/asap7/jpeg/data_point_1 \
-	/data/sjulaka6/data/asap7/jpeg/data_point_2 \
-	/data/sjulaka6/data/asap7/jpeg/data_point_3 \
-	/data/sjulaka6/data/asap7/jpeg/data_point_4 \
-	/data/sjulaka6/data/asap7/jpeg/data_point_5 \
-	/data/sjulaka6/data/asap7/jpeg/data_point_6 \
-  /data/sjulaka6/data/asap7/jpeg/data_point_7 \
+  --folders ../../benchmarks/asap7/jpeg/data_point_1 \
+	 ../../benchmarks/asap7/jpeg/data_point_2 \
+	 ../../benchmarks/asap7/jpeg/data_point_3 \
+	 ../../benchmarks/asap7/jpeg/data_point_4 \
+	 ../../benchmarks/asap7/jpeg/data_point_5 \
+	 ../../benchmarks/asap7/jpeg/data_point_6 \
+     ../../benchmarks/asap7/jpeg/data_point_7 \
   --ckpt outputs/best_model_opt1_test-jpeg_e30_wfl.pt \
   --norm-path outputs/norm_opt1_test-jpeg_e30_wfl.pt \
   --guide-name ml_pred_opt1.guide
